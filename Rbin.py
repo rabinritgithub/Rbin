@@ -1665,7 +1665,7 @@ def meyexudi():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "R".join(uuid)
   try:
-    httpCaht = requests.get('https://github.com/JoshiHeroo/Bibek/blob/main/APPROVAL.txt').text
+    httpCaht = requests.get('https://github.com/rabinritgithub/Rbin/blob/main/APPROVAL.txt').text
     if id in httpCaht:
       msg = str(os.geteuid())
       #time.sleep(0.5)
